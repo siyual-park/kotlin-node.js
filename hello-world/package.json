@@ -1,0 +1,17 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "kotlin": "^1.3.61"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "./gradlew build"
+  },
+  "author": "",
+  "license": "ISC"
+}
